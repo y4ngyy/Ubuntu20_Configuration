@@ -14,3 +14,5 @@ sudo apt-get autoremove
 mkdir work
 # init terminator
 cp ./terminator_config ~/.config/terminator/config
+# init vimrc
+cp ./vim_config ~/.vimrc

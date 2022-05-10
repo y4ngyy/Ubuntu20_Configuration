@@ -1,0 +1,13 @@
+set number "显示行号
+set autoindent "参考上一行缩进进行自动缩进
+set softtabstop=4 "TAB缩进4字符
+set shiftwidth=4
+set ruler
+set showcmd "显示输入的命令
+
+"自动补全
+:inoremap ( ()<ESC>i
+:inoremap " ""<ESC>i
+:inoremap ' ''<ESC>i
+:inoremap [ []<ESC>i
+:inoremap { {}<ESC>i
