@@ -16,3 +16,5 @@ mkdir work
 cp ./terminator_config ~/.config/terminator/config
 # init vimrc
 cp ./vim_config ~/.vimrc
+# install video codecs for videos 
+sudo apt-get install ffmpeg -y
