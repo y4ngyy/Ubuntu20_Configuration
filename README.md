@@ -6,11 +6,13 @@ shell for personal Ubuntu20.04  initialization
 for vmware device:
 
 ```bash
+chmod +x vm_init.sh
 ./vm_init.sh
 ```
 
 for physical device:
 
 ```bash
+chmod +x init.sh
 ./init.sh
 ```
